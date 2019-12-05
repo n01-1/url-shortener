@@ -1,0 +1,35 @@
+[2019/Dec/05 14:02:19] ERROR: "POST /auth/tokens/ HTTP/1.1" 500 90
+[2019/Dec/05 14:03:07] DEBUG: here
+[2019/Dec/05 14:03:07] DEBUG: here
+[2019/Dec/05 14:03:07] DEBUG: None
+[2019/Dec/05 14:03:07] ERROR: "POST /auth/tokens/ HTTP/1.1" 500 90
+[2019/Dec/05 14:03:45] DEBUG: {'access_token': b'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1IiwiZXhwIjoxNTc1NjQxMDI2fQ.bOw06v_Aej3jTNUDl4U4NUph6FfJnnblEKbJsXyYMzE', 'refresh_token': b'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1IiwiZXhwIjoxNTgwNzM4NjI2fQ.nxSBPRLP2f7EsYrMapWWP9Jz0GAi5frQmMGQ6Al5ZEA', 'user': <User: ali>}
+[2019/Dec/05 14:19:43] ERROR: {'grantType': [ErrorDetail(string='This field is required.', code='required')]}
+[2019/Dec/05 14:19:43] WARNING: "POST /auth/tokens/ HTTP/1.1" 400 86
+[2019/Dec/05 15:11:55] ERROR: "POST /clients/me/create-url/ HTTP/1.1" 500 90
+[2019/Dec/05 15:13:20] WARNING: "POST /clients/me/create-url/ HTTP/1.1" 401 97
+[2019/Dec/05 15:14:04] WARNING: "POST /auth/tokens/ HTTP/1.1" 400 90
+[2019/Dec/05 15:14:10] ERROR: {'password': [ErrorDetail(string='This field may not be blank.', code='blank')]}
+[2019/Dec/05 15:14:10] WARNING: "POST /auth/tokens/ HTTP/1.1" 400 86
+[2019/Dec/05 15:14:17] WARNING: "POST /auth/tokens/ HTTP/1.1" 404 83
+[2019/Dec/05 15:16:10] ERROR: "POST /clients/me:createUrl/ HTTP/1.1" 500 101532
+[2019/Dec/05 15:17:26] WARNING: "POST /clients/me:createUrl/ HTTP/1.1" 401 187
+[2019/Dec/05 15:17:46] ERROR: {'longUrl': [ErrorDetail(string='Enter a valid URL.', code='invalid')]}
+[2019/Dec/05 15:17:46] WARNING: "POST /clients/me:createUrl/ HTTP/1.1" 400 86
+[2019/Dec/05 15:18:08] ERROR: {'longUrl': [ErrorDetail(string='Enter a valid URL.', code='invalid')]}
+[2019/Dec/05 15:18:08] WARNING: "POST /clients/me:createUrl/ HTTP/1.1" 400 86
+[2019/Dec/05 15:18:23] ERROR: {'longUrl': [ErrorDetail(string='Enter a valid URL.', code='invalid')]}
+[2019/Dec/05 15:18:23] WARNING: "POST /clients/me:createUrl/ HTTP/1.1" 400 86
+[2019/Dec/05 15:18:32] ERROR: "POST /clients/me:createUrl/ HTTP/1.1" 500 90
+[2019/Dec/05 15:18:41] ERROR: "POST /clients/me:createUrl/ HTTP/1.1" 500 90
+[2019/Dec/05 15:20:19] ERROR: "POST /clients/me:createUrl/ HTTP/1.1" 500 90
+[2019/Dec/05 15:25:45] ERROR: "POST /clients/me:createUrl/ HTTP/1.1" 500 90
+[2019/Dec/05 15:47:34] ERROR: "GET /links/LteuMA2dpI7/ HTTP/1.1" 500 89622
+[2019/Dec/05 15:49:40] ERROR: "GET /links/LteuMA2dpI7/ HTTP/1.1" 500 66293
+[2019/Dec/05 15:53:21] WARNING: "GET /links/LteuMA2dpI7/www.google.com HTTP/1.1" 404 2781
+[2019/Dec/05 15:53:32] WARNING: "GET /links/LteuMA2dpI7/www.google.com HTTP/1.1" 404 2781
+[2019/Dec/05 15:54:48] ERROR: {'longUrl': [ErrorDetail(string='Enter a valid URL.', code='invalid')]}
+[2019/Dec/05 15:54:48] WARNING: "POST /clients/me:createUrl/ HTTP/1.1" 400 86
+[2019/Dec/05 16:00:32] WARNING: "POST /clients/me:createUrl/ HTTP/1.1" 404 2743
+[2019/Dec/05 16:22:00] ERROR: "POST /clients/me/urls/ HTTP/1.1" 500 90
+[2019/Dec/05 16:22:41] ERROR: "GET /links/aliW3/ HTTP/1.1" 500 103769

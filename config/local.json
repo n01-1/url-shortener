@@ -1,0 +1,5 @@
+{
+  "shortener": {
+    "baseUrl": "localhost:8000/"
+  }
+}

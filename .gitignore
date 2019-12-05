@@ -1,0 +1,11 @@
+logs/*.logs
+
+static_files/*
+
+.idea/
+
+db.sqlite3
+
+*/*pycache*/
+
+media/*
