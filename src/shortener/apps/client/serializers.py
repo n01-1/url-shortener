@@ -41,6 +41,7 @@ class UrlSerializer(serializers.BaseSerializer):
             'longUrl': instance.long_url,
             'shortUrl': settings.CONFIG['shortener']['baseUrl'] + 'links/' + instance.short_url,
             'creationTime': instance.creation_time,
+            'id': instance.id,
         }
 
         return val

@@ -12,6 +12,8 @@ argon2-cffi = "*"
 passlib = "*"
 pyjwt = "*"
 redis = "*"
+celery = "*"
+django-redis-cache = "*"
 
 [requires]
 python_version = "3.7"

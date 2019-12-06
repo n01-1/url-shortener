@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'shortener.apps.iam.apps.IamConfig',
     'shortener.apps.client.apps.ClientConfig',
     'shortener.apps.link.apps.LinkConfig',
+    'shortener.apps.analytics.apps.AnalyticsConfig',
 ]
 
 MIDDLEWARE = [
@@ -133,4 +134,8 @@ REDIS = {
     'PORT': 6379,
     'PASSWORD': '',
     'DB': 1,
+}
+
+RABBITMQ = {
+    'URL': 'pyamqp://localhost:5672'
 }

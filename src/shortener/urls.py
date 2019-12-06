@@ -22,4 +22,5 @@ urlpatterns = [
     path('', include('shortener.apps.iam.urls')),
     path('', include('shortener.apps.client.urls')),
     path('', include('shortener.apps.link.urls')),
+    path('', include('shortener.apps.analytics.urls')),
 ]
